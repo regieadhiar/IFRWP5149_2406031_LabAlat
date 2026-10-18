@@ -1,0 +1,62 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="M5bHUs_foEOVssaaNM3Q">
+    <mxGraphModel dx="982" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B9GULtATMWfFN3YaNjnL-46" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Sistem Informasi Akademik" vertex="1">
+          <mxGeometry height="550" width="547" x="160" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-50" parent="B9GULtATMWfFN3YaNjnL-46" style="ellipse;whiteSpace=wrap;html=1;" value="Ajukan KRS" vertex="1">
+          <mxGeometry height="70" width="140" x="30" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-51" parent="B9GULtATMWfFN3YaNjnL-46" style="ellipse;whiteSpace=wrap;html=1;" value="Validasi KRS" vertex="1">
+          <mxGeometry height="70" width="140" x="240" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-52" parent="B9GULtATMWfFN3YaNjnL-46" style="ellipse;whiteSpace=wrap;html=1;" value="Unduh bukti pengajuan KRS" vertex="1">
+          <mxGeometry height="70" width="140" x="30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-53" parent="B9GULtATMWfFN3YaNjnL-46" style="ellipse;whiteSpace=wrap;html=1;" value="Proses keputusan KRS" vertex="1">
+          <mxGeometry height="70" width="140" x="340" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-57" edge="1" parent="B9GULtATMWfFN3YaNjnL-46" source="B9GULtATMWfFN3YaNjnL-52" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="B9GULtATMWfFN3YaNjnL-50" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="90" y="120" as="sourcePoint" />
+            <mxPoint x="250" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-58" edge="1" parent="B9GULtATMWfFN3YaNjnL-46" source="B9GULtATMWfFN3YaNjnL-50" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" target="B9GULtATMWfFN3YaNjnL-51" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="-100" y="160" as="sourcePoint" />
+            <mxPoint x="60" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="" plantUmlId="noteptr_15" plantUmlBaseStyle="shape=triangle;fillColor=#FEFFDD;strokeColor=#181818;strokeWidth=0.5;direction=west;" plantUmlBaseValue="" id="B9GULtATMWfFN3YaNjnL-43">
+          <mxCell parent="B9GULtATMWfFN3YaNjnL-46" style="shape=triangle;fillColor=#FEFFDD;strokeColor=#181818;strokeWidth=0.5;direction=west;" vertex="1">
+            <mxGeometry height="8" width="36" x="170" y="341" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="condition: [mahasiswa memilih mengunduh bukti]&#xa;extension point: Bukti pengajuan tersedia" plantUmlId="note_14" plantUmlBaseStyle="shape=note;size=10;fillColor=#FEFFDD;strokeColor=#181818;fontSize=13;whiteSpace=wrap;align=left;" plantUmlBaseValue="condition: [mahasiswa memilih mengunduh bukti]&#xa;extension point: Bukti pengajuan tersedia" id="B9GULtATMWfFN3YaNjnL-42">
+          <mxCell parent="B9GULtATMWfFN3YaNjnL-46" style="shape=note;size=10;fillColor=#FEFFDD;strokeColor=#181818;fontSize=13;whiteSpace=wrap;align=left;" vertex="1">
+            <mxGeometry height="40" width="294" x="206" y="331" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-55" edge="1" parent="1" source="B9GULtATMWfFN3YaNjnL-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="B9GULtATMWfFN3YaNjnL-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-56" edge="1" parent="1" source="B9GULtATMWfFN3YaNjnL-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="B9GULtATMWfFN3YaNjnL-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-47" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-54" edge="1" parent="1" source="B9GULtATMWfFN3YaNjnL-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="B9GULtATMWfFN3YaNjnL-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B9GULtATMWfFN3YaNjnL-48" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Dosen Wali" vertex="1">
+          <mxGeometry height="60" width="30" x="730.5" y="475" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
