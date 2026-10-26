@@ -5,3 +5,4 @@ Status Latihan  :
 - Pertemuan 2 Unified Modelling Language (UML)
 - Pertemuan 3 Use Case Diagram
 - Pertemuan 4 Use Case Diagram Lanjutan: Generalization dan Collaboration
+- Pertemuan 5 Skenario Use Case: Dari Diagram ke Langkah Kegiatan
