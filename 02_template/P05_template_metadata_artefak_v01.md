@@ -1,7 +1,7 @@
 ID artefak          : P05
 Judul               : Penulisan Skenario Use Case
 Pertemuan           : 05
-Sumber kebutuhan    : LAB-R01; LAB-R02
+Sumber kebutuhan    : LAB-UC01, LAB-UC02, LAB-UC03, LAB-UC04, LAB-UC05, LAB-UC06, LAB-UC07, LAB-UC08, LAB-UC09, LAB-UC10, LAB-UC11, LAB-UC12;
 Jenis/status        : SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN
 Kakas               : draw.io
 Pembuat             : Regie Adhia Rozabbissalam - 2406031
