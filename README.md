@@ -6,3 +6,4 @@ Status Latihan  :
 - Pertemuan 3 Use Case Diagram
 - Pertemuan 4 Use Case Diagram Lanjutan: Generalization dan Collaboration
 - Pertemuan 5 Skenario Use Case: Dari Diagram ke Langkah Kegiatan
+- Pertemuan 6 Activity Diagram: Dari Skenario ke Alur Aktivitas

@@ -1,0 +1,75 @@
+<mxfile host="65bd71144e">
+    <diagram id="m9cA__oDOCB5pHVWxi37" name="Page-1">
+        <mxGraphModel dx="771" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-2" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="700" width="230" x="140" y="140" as="geometry">
+                        <mxRectangle height="30" width="70" x="190" y="150" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-11" edge="1" parent="jn3d_D12gu-c4WJbPZWG-2" source="jn3d_D12gu-c4WJbPZWG-4" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="jn3d_D12gu-c4WJbPZWG-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-4" parent="jn3d_D12gu-c4WJbPZWG-2" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="100" y="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-5" parent="jn3d_D12gu-c4WJbPZWG-2" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Membuka fungsi Lihat Ketersediaan Peralatan" vertex="1">
+                    <mxGeometry height="40" width="140" x="45" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-3" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Sistem" vertex="1">
+                    <mxGeometry height="700" width="300" x="370" y="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-13" edge="1" parent="jn3d_D12gu-c4WJbPZWG-3" source="jn3d_D12gu-c4WJbPZWG-6" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="jn3d_D12gu-c4WJbPZWG-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-6" parent="jn3d_D12gu-c4WJbPZWG-3" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" value="Menampilkan daftar peralatan beserta status ketersediannya" vertex="1">
+                    <mxGeometry height="40" width="170" x="50" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-14" edge="1" parent="jn3d_D12gu-c4WJbPZWG-3" source="jn3d_D12gu-c4WJbPZWG-7" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="jn3d_D12gu-c4WJbPZWG-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-16" connectable="0" parent="jn3d_D12gu-c4WJbPZWG-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="[tidak tersedia]" vertex="1">
+                    <mxGeometry relative="1" x="0.0871" y="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-15" edge="1" parent="jn3d_D12gu-c4WJbPZWG-3" source="jn3d_D12gu-c4WJbPZWG-7" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=0;endArrow=block;endFill=1;" target="jn3d_D12gu-c4WJbPZWG-9">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="250" y="295"/>
+                            <mxPoint x="250" y="545"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-17" connectable="0" parent="jn3d_D12gu-c4WJbPZWG-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="[tersedia]" vertex="1">
+                    <mxGeometry relative="1" x="-0.245" y="2" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-7" parent="jn3d_D12gu-c4WJbPZWG-3" style="rhombus;" value="Peralatan&#xa;tersedia?" vertex="1">
+                    <mxGeometry height="70" width="110" x="80" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-18" edge="1" parent="jn3d_D12gu-c4WJbPZWG-3" source="jn3d_D12gu-c4WJbPZWG-8" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="jn3d_D12gu-c4WJbPZWG-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-8" parent="jn3d_D12gu-c4WJbPZWG-3" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" value="Menampilkan pesan tidak ada peralatan yang tersedia" vertex="1">
+                    <mxGeometry height="40" width="170" x="50" y="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-19" edge="1" parent="jn3d_D12gu-c4WJbPZWG-3" source="jn3d_D12gu-c4WJbPZWG-9" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="jn3d_D12gu-c4WJbPZWG-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-9" parent="jn3d_D12gu-c4WJbPZWG-3" style="rhombus;" value="" vertex="1">
+                    <mxGeometry height="50" width="50" x="110" y="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-10" parent="jn3d_D12gu-c4WJbPZWG-3" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="120" y="630" as="geometry"/>
+                </mxCell>
+                <mxCell id="jn3d_D12gu-c4WJbPZWG-12" edge="1" parent="1" source="jn3d_D12gu-c4WJbPZWG-5" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;curved=0;endArrow=block;endFill=1;" target="jn3d_D12gu-c4WJbPZWG-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
