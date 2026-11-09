@@ -1,0 +1,126 @@
+<mxfile host="65bd71144e">
+    <diagram id="Y3euWw0p0ZQpCz1eADLV" name="Page-1">
+        <mxGraphModel dx="1798" dy="1240" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-1" edge="1" parent="1" source="9Py6PpF3OodBRVZ_EYsU-7" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;curved=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;endArrow=block;endFill=1;" target="9Py6PpF3OodBRVZ_EYsU-9">
+                    <mxGeometry relative="1" x="0.0574" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="570" y="390"/>
+                            <mxPoint x="205" y="390"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9Py6PpF3OodBRVZ_EYsU-21" edge="1" parent="1" source="9Py6PpF3OodBRVZ_EYsU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;endSize=8;strokeWidth=1;fontSize=10;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;" target="9Py6PpF3OodBRVZ_EYsU-7" value="">
+                    <mxGeometry relative="1" x="0.1923" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="205" y="282"/>
+                            <mxPoint x="570" y="282"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9Py6PpF3OodBRVZ_EYsU-37" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;" value="Dosen" vertex="1">
+                    <mxGeometry height="970" width="290" x="65" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Py6PpF3OodBRVZ_EYsU-38" parent="9Py6PpF3OodBRVZ_EYsU-37" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="125" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Py6PpF3OodBRVZ_EYsU-6" parent="9Py6PpF3OodBRVZ_EYsU-37" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=14;" value="Membuka fungsi Lihat Kalender Akademik" vertex="1">
+                    <mxGeometry height="54" width="200" x="40" y="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Py6PpF3OodBRVZ_EYsU-36" edge="1" parent="9Py6PpF3OodBRVZ_EYsU-37" source="9Py6PpF3OodBRVZ_EYsU-38" style="edgeStyle=none;html=1;endArrow=block;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9Py6PpF3OodBRVZ_EYsU-6" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="140" y="74" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="9Py6PpF3OodBRVZ_EYsU-9" parent="9Py6PpF3OodBRVZ_EYsU-37" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=14;" value="Memilih Semester" vertex="1">
+                    <mxGeometry height="60" width="220" x="30" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Py6PpF3OodBRVZ_EYsU-39" parent="1" style="swimlane;startSize=20;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Sistem" vertex="1">
+                    <mxGeometry height="970" width="429" x="355" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Py6PpF3OodBRVZ_EYsU-7" parent="9Py6PpF3OodBRVZ_EYsU-39" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=14;" value="Menampilkan daftar semester yang memiliki kalender akademik&amp;nbsp;" vertex="1">
+                    <mxGeometry height="54" width="200" x="115" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-19" edge="1" parent="9Py6PpF3OodBRVZ_EYsU-39" source="wsC-P-kS_VjyQ884jlZ0-2" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=0;endArrow=block;endFill=1;" target="wsC-P-kS_VjyQ884jlZ0-17">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-2" parent="9Py6PpF3OodBRVZ_EYsU-39" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=14;fillColor=#d5e8d4;strokeColor=#82b366;" value="Menampilkan kalender akademik semester tersebut" vertex="1">
+                    <mxGeometry height="54" width="160" x="40" y="740" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-7" edge="1" parent="9Py6PpF3OodBRVZ_EYsU-39" source="wsC-P-kS_VjyQ884jlZ0-3" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;rounded=0;curved=0;" target="wsC-P-kS_VjyQ884jlZ0-6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-8" connectable="0" parent="wsC-P-kS_VjyQ884jlZ0-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="[ada]" vertex="1">
+                    <mxGeometry relative="1" x="0.0269" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-10" edge="1" parent="9Py6PpF3OodBRVZ_EYsU-39" source="wsC-P-kS_VjyQ884jlZ0-3" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;curved=0;endArrow=block;endFill=1;" target="wsC-P-kS_VjyQ884jlZ0-9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-11" connectable="0" parent="wsC-P-kS_VjyQ884jlZ0-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="[tidak ada]" vertex="1">
+                    <mxGeometry relative="1" x="-0.63" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-3" parent="9Py6PpF3OodBRVZ_EYsU-39" style="rhombus;" value="Semester &#xa;ada pada&#xa;daftar" vertex="1">
+                    <mxGeometry height="90" width="150" x="45" y="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-12" edge="1" parent="9Py6PpF3OodBRVZ_EYsU-39" source="wsC-P-kS_VjyQ884jlZ0-6" style="edgeStyle=none;html=1;endArrow=block;endFill=1;" target="wsC-P-kS_VjyQ884jlZ0-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-14" connectable="0" parent="wsC-P-kS_VjyQ884jlZ0-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="[sudah ditetapkan]" vertex="1">
+                    <mxGeometry relative="1" x="-0.2161" y="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-15" edge="1" parent="9Py6PpF3OodBRVZ_EYsU-39" source="wsC-P-kS_VjyQ884jlZ0-6" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;endArrow=block;endFill=1;" target="wsC-P-kS_VjyQ884jlZ0-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-16" connectable="0" parent="wsC-P-kS_VjyQ884jlZ0-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;" value="[belum ditetapkan]" vertex="1">
+                    <mxGeometry relative="1" x="-0.6695" y="2" as="geometry">
+                        <mxPoint x="21" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-6" parent="9Py6PpF3OodBRVZ_EYsU-39" style="rhombus;" value="Kalender &#xa;sudah ditetapkan" vertex="1">
+                    <mxGeometry height="90" width="150" x="45" y="580" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-20" edge="1" parent="9Py6PpF3OodBRVZ_EYsU-39" source="wsC-P-kS_VjyQ884jlZ0-9" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=0;curved=0;endArrow=block;endFill=1;" target="wsC-P-kS_VjyQ884jlZ0-17">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="415" y="567"/>
+                            <mxPoint x="415" y="935"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-9" parent="9Py6PpF3OodBRVZ_EYsU-39" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=14;fillColor=#f8cecc;strokeColor=#b85450;" value="Menampilkan pesan semester tidak ditemukan dan meminta memilih ulang" vertex="1">
+                    <mxGeometry height="54" width="150" x="240" y="540" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-18" edge="1" parent="9Py6PpF3OodBRVZ_EYsU-39" source="wsC-P-kS_VjyQ884jlZ0-13" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;curved=0;endArrow=block;endFill=1;" target="wsC-P-kS_VjyQ884jlZ0-17">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="315" y="860"/>
+                            <mxPoint x="215" y="860"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-13" parent="9Py6PpF3OodBRVZ_EYsU-39" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;arcSize=14;fillColor=#f8cecc;strokeColor=#b85450;" value="Menampilkan pesan kalender akademik belum tersedia" vertex="1">
+                    <mxGeometry height="54" width="150" x="240" y="740" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-17" parent="9Py6PpF3OodBRVZ_EYsU-39" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="200" y="920" as="geometry"/>
+                </mxCell>
+                <mxCell id="wsC-P-kS_VjyQ884jlZ0-5" edge="1" parent="1" source="9Py6PpF3OodBRVZ_EYsU-9" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;curved=0;endArrow=block;endFill=1;" target="wsC-P-kS_VjyQ884jlZ0-3">
+                    <mxGeometry relative="1" x="0.6262" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="205" y="480"/>
+                            <mxPoint x="475" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

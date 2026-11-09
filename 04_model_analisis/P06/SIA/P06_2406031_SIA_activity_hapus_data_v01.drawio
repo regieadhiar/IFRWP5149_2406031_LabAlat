@@ -1,0 +1,97 @@
+<mxfile host="65bd71144e">
+    <diagram id="Y3euWw0p0ZQpCz1eADLV" name="Page-1">
+        <mxGraphModel dx="501" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-1" parent="1" style="swimlane;startSize=24;html=1;whiteSpace=wrap;fontStyle=1;fontSize=11;fillColor=#ffffff;swimlaneFillColor=none;strokeColor=#000000;" value="Admin Akademik" vertex="1">
+                    <mxGeometry height="693" width="190" x="40" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-2" parent="RRoN5vIrm_e_rPegHCIj-1" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="28" width="28" x="81" y="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-3" parent="RRoN5vIrm_e_rPegHCIj-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fontSize=10;fillColor=#ffffff;strokeColor=#000000;" value="Memilih data mahasiswa yang akan dihapus" vertex="1">
+                    <mxGeometry height="44" width="170" x="10" y="108" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-4" parent="RRoN5vIrm_e_rPegHCIj-1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fontSize=10;fillColor=#d5e8d4;strokeColor=#82b366;" value="Mengonfirmasi penghapusan" vertex="1">
+                    <mxGeometry height="44" width="170" x="10" y="378" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-5" parent="1" style="swimlane;startSize=24;html=1;whiteSpace=wrap;fontStyle=1;fontSize=11;fillColor=#ffffff;swimlaneFillColor=none;strokeColor=#000000;" value="Sistem" vertex="1">
+                    <mxGeometry height="693" width="580" x="230" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-6" parent="RRoN5vIrm_e_rPegHCIj-5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fontSize=10;fillColor=#ffffff;strokeColor=#000000;" value="Memeriksa tidak ada data akademik aktif" vertex="1">
+                    <mxGeometry height="44" width="170" x="20" y="193" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-7" parent="RRoN5vIrm_e_rPegHCIj-5" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;fillColor=#ffffff;strokeColor=#000000;" value="Data akademik aktif?" vertex="1">
+                    <mxGeometry height="80" width="150" x="30" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-8" parent="RRoN5vIrm_e_rPegHCIj-5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" value="Menolak penghapusan, data akademik masih aktif" vertex="1">
+                    <mxGeometry height="44" width="170" x="315" y="378" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-9" parent="RRoN5vIrm_e_rPegHCIj-5" style="rounded=1;whiteSpace=wrap;html=1;arcSize=10;fontSize=10;fillColor=#ffffff;strokeColor=#000000;" value="Menghapus data mahasiswa dan menampilkan konfirmasi" vertex="1">
+                    <mxGeometry height="44" width="170" x="20" y="458" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-10" parent="RRoN5vIrm_e_rPegHCIj-5" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;" value="" vertex="1">
+                    <mxGeometry height="40" width="40" x="85" y="537" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-21" parent="RRoN5vIrm_e_rPegHCIj-5" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+                    <mxGeometry height="30" width="30" x="90" y="612" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-20" edge="1" parent="RRoN5vIrm_e_rPegHCIj-5" source="RRoN5vIrm_e_rPegHCIj-10" style="edgeStyle=none;rounded=0;curved=0;html=1;endArrow=block;endFill=1;endSize=6;strokeWidth=1;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="RRoN5vIrm_e_rPegHCIj-21" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="105" y="611" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-12" edge="1" parent="1" source="RRoN5vIrm_e_rPegHCIj-2" style="edgeStyle=none;rounded=0;curved=0;html=1;endArrow=block;endFill=1;endSize=6;strokeWidth=1;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RRoN5vIrm_e_rPegHCIj-3" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-13" edge="1" parent="1" source="RRoN5vIrm_e_rPegHCIj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;html=1;endArrow=block;endFill=1;endSize=6;strokeWidth=1;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RRoN5vIrm_e_rPegHCIj-6" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="135" y="292.5"/>
+                            <mxPoint x="335" y="292.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-14" edge="1" parent="1" source="RRoN5vIrm_e_rPegHCIj-6" style="edgeStyle=none;rounded=0;curved=0;html=1;endArrow=block;endFill=1;endSize=6;strokeWidth=1;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RRoN5vIrm_e_rPegHCIj-7" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-15" edge="1" parent="1" source="RRoN5vIrm_e_rPegHCIj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;html=1;endArrow=block;endFill=1;endSize=6;strokeWidth=1;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RRoN5vIrm_e_rPegHCIj-8" value="[ya]">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="470" y="420"/>
+                            <mxPoint x="470" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-16" edge="1" parent="1" source="RRoN5vIrm_e_rPegHCIj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;html=1;endArrow=block;endFill=1;endSize=6;strokeWidth=1;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RRoN5vIrm_e_rPegHCIj-4" value="[tidak]">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="335" y="479"/>
+                            <mxPoint x="135" y="479"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-17" edge="1" parent="1" source="RRoN5vIrm_e_rPegHCIj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;html=1;endArrow=block;endFill=1;endSize=6;strokeWidth=1;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RRoN5vIrm_e_rPegHCIj-9" value="">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="135" y="560"/>
+                            <mxPoint x="335" y="560"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-18" edge="1" parent="1" source="RRoN5vIrm_e_rPegHCIj-9" style="edgeStyle=none;rounded=0;curved=0;html=1;endArrow=block;endFill=1;endSize=6;strokeWidth=1;fontSize=9;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RRoN5vIrm_e_rPegHCIj-10" value="">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="RRoN5vIrm_e_rPegHCIj-19" edge="1" parent="1" source="RRoN5vIrm_e_rPegHCIj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;curved=0;html=1;endArrow=block;endFill=1;endSize=6;strokeWidth=1;fontSize=9;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="RRoN5vIrm_e_rPegHCIj-10" value="">
+                    <mxGeometry relative="1" x="0.0723" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="740" y="520"/>
+                            <mxPoint x="740" y="677"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
